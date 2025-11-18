@@ -1,0 +1,2565 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ATOZAPIs",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Address": {
+      "post": {
+        "tags": [
+          "Address"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAddressDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAddressDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAddressDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Address"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAddressDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAddressDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAddressDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Address/FindAddress/{PersonID}": {
+      "get": {
+        "tags": [
+          "Address"
+        ],
+        "parameters": [
+          {
+            "name": "PersonID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsAddressDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsAddressDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsAddressDTO"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/AdminInfo/GetAdminPhoneNumber/{AdminID}": {
+      "get": {
+        "tags": [
+          "AdminInfo"
+        ],
+        "parameters": [
+          {
+            "name": "AdminID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Category/GetStoreCategories/{storeItemsFilterDTO}": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "parameters": [
+          {
+            "name": "storeItemsFilterDTO",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCategoryDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCategoryDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCategoryDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/ContactInformation/GetPersonContactInformation/{personID}": {
+      "get": {
+        "tags": [
+          "ContactInformation"
+        ],
+        "parameters": [
+          {
+            "name": "personID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsContactInformationDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsContactInformationDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsContactInformationDTO"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/CustomerAccess/GoEmail/{DeviceName}": {
+      "post": {
+        "tags": [
+          "CustomerAccess"
+        ],
+        "parameters": [
+          {
+            "name": "DeviceName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CustomerAccess/SignUpByUserName/{DeviceName}": {
+      "post": {
+        "tags": [
+          "CustomerAccess"
+        ],
+        "parameters": [
+          {
+            "name": "LoginData",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "DeviceName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsPersonWithPointDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsPersonWithPointDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsPersonWithPointDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CustomerAccess/LoginByUserName/{DeviceName}": {
+      "get": {
+        "tags": [
+          "CustomerAccess"
+        ],
+        "parameters": [
+          {
+            "name": "LoginData",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "DeviceName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTokensDTO"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CustomerBalance/GetCustomerBalancePaymentsHistoryAndBalance/{customerBalancePaymentsHistoryFilterJson}": {
+      "get": {
+        "tags": [
+          "CustomerBalance"
+        ],
+        "parameters": [
+          {
+            "name": "customerBalancePaymentsHistoryFilterJson",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsCustomerBalancePaymentsHistoryAndCustomerBalanceDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsCustomerBalancePaymentsHistoryAndCustomerBalanceDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsCustomerBalancePaymentsHistoryAndCustomerBalanceDTO"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/CustomerBalance/GetCustomerBalance/{customerID}": {
+      "get": {
+        "tags": [
+          "CustomerBalance"
+        ],
+        "parameters": [
+          {
+            "name": "customerID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "number",
+                  "format": "float"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "float"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "float"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/CustomerLocation": {
+      "put": {
+        "tags": [
+          "CustomerLocation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsCustomerLocationDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsCustomerLocationDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsCustomerLocationDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CustomerLocation/{CustomerID}": {
+      "get": {
+        "tags": [
+          "CustomerLocation"
+        ],
+        "parameters": [
+          {
+            "name": "CustomerID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsCustomerLocationDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsCustomerLocationDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsCustomerLocationDTO"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Item/GetStoreSubCategoryItemItems/{storeSubCategoryItemItemsFilterJson}": {
+      "get": {
+        "tags": [
+          "Item"
+        ],
+        "parameters": [
+          {
+            "name": "storeSubCategoryItemItemsFilterJson",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsStoreSubCategoryItemItemDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsStoreSubCategoryItemItemDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsStoreSubCategoryItemItemDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Person/GetPersonInfo/{personID}": {
+      "get": {
+        "tags": [
+          "Person"
+        ],
+        "parameters": [
+          {
+            "name": "personID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPersonInfoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPersonInfoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPersonInfoDTO"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/RandomCode/PhoneNumberRandomCode/{PhoneNumber}": {
+      "get": {
+        "tags": [
+          "RandomCode"
+        ],
+        "parameters": [
+          {
+            "name": "PhoneNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/RefreshToken": {
+      "get": {
+        "tags": [
+          "RefreshToken"
+        ],
+        "parameters": [
+          {
+            "name": "RefreshToken",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Request/InsertCompletedRequest": {
+      "post": {
+        "tags": [
+          "Request"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsCompletedRequestDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsCompletedRequestDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsCompletedRequestDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Request/GetCustomerRequests/{filterJson}": {
+      "post": {
+        "tags": [
+          "Request"
+        ],
+        "parameters": [
+          {
+            "name": "FilterJson",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerRequestDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerRequestDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerRequestDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Session/DropSession": {
+      "put": {
+        "tags": [
+          "Session"
+        ],
+        "parameters": [
+          {
+            "name": "RefreshToken",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Store/GetCustomerStoresSuggestions/{customerStoresFilterJson}": {
+      "get": {
+        "tags": [
+          "Store"
+        ],
+        "parameters": [
+          {
+            "name": "customerStoresFilterJson",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Store/GetCustomerFavoriteStores/{customerFavoriteStoreFilterDTO}": {
+      "get": {
+        "tags": [
+          "Store"
+        ],
+        "parameters": [
+          {
+            "name": "customerFavoriteStoreFilterDTO",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Store/GetFamousCustomerStores/{customerStoresFilterJson}": {
+      "get": {
+        "tags": [
+          "Store"
+        ],
+        "parameters": [
+          {
+            "name": "customerStoresFilterJson",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Store/GetCustomerPreviousRequestsStores/{customerFavoriteStoreFilterDTO}": {
+      "get": {
+        "tags": [
+          "Store"
+        ],
+        "parameters": [
+          {
+            "name": "customerFavoriteStoreFilterDTO",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Store/GetCustomerSearchStores/{customerSearchingStoresFilterDTO}": {
+      "get": {
+        "tags": [
+          "Store"
+        ],
+        "parameters": [
+          {
+            "name": "customerSearchingStoresFilterDTO",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsCustomerStoreSuggestionDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/StoreType/GetStoreTypesWithColors": {
+      "get": {
+        "tags": [
+          "StoreType"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsStoreTypeWithColorDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsStoreTypeWithColorDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsStoreTypeWithColorDTO"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/SubCategory/GetStoreCategorySubCategories/{StoreCategorySubCategoriesFilterJson}": {
+      "get": {
+        "tags": [
+          "SubCategory"
+        ],
+        "parameters": [
+          {
+            "name": "StoreCategorySubCategoriesFilterJson",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsSubCategoryDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsSubCategoryDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsSubCategoryDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/SubCategoryItem/GetStoreSubCategorySubCategoryItems/{StoreSubCategorySubCategoryItemsJson}": {
+      "get": {
+        "tags": [
+          "SubCategoryItem"
+        ],
+        "parameters": [
+          {
+            "name": "StoreSubCategorySubCategoryItemsJson",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsSubCategoryItemDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsSubCategoryItemDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsSubCategoryItemDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "clsAddressDTO": {
+        "type": "object",
+        "properties": {
+          "AddressID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PersonID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "nullable": true
+          },
+          "AreaName": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetNameOrNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "BuildingName": {
+            "type": "string",
+            "nullable": true
+          },
+          "ImportantNotes": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsCategoryDTO": {
+        "type": "object",
+        "properties": {
+          "CategoryID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CategoryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CategoryImagePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsCompletedRequestDTO": {
+        "type": "object",
+        "properties": {
+          "RequestDTO": {
+            "$ref": "#/components/schemas/clsRequestDTO"
+          },
+          "RequestItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsRequestItemDTO"
+            },
+            "nullable": true
+          },
+          "RequestTotalPaymentDTO": {
+            "$ref": "#/components/schemas/clsRequestTotalPaymentDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsContactInformationDTO": {
+        "type": "object",
+        "properties": {
+          "ContactInformationID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "PhoneNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsCustomerBalancePaymentHistoryDTO": {
+        "type": "object",
+        "properties": {
+          "RequestID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "RequestDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "RequestStatus": {
+            "$ref": "#/components/schemas/enRequestStatus"
+          },
+          "PriceAfterDiscount": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "BalanceValueUsed": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsCustomerBalancePaymentsHistoryAndCustomerBalanceDTO": {
+        "type": "object",
+        "properties": {
+          "CustomerBalance": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "CustomerBalancePaymentHistoryDTOs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsCustomerBalancePaymentHistoryDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsCustomerLocationDTO": {
+        "type": "object",
+        "properties": {
+          "CustomerID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Latitude": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "Longitude": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "Address": {
+            "type": "string",
+            "nullable": true
+          },
+          "UpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsCustomerRequestDTO": {
+        "type": "object",
+        "properties": {
+          "RequestID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "RequestDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "RequestStatus": {
+            "$ref": "#/components/schemas/enRequestStatus"
+          },
+          "CompletedRequestDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "StoreID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "StoreName": {
+            "type": "string",
+            "nullable": true
+          },
+          "StoreTypeName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsCustomerStoreSuggestionDTO": {
+        "type": "object",
+        "properties": {
+          "StoreID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "StoreName": {
+            "type": "string",
+            "nullable": true
+          },
+          "StoreTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "DistanceInMeters": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "StoreImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "HexCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "Shade": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsPersonDTO": {
+        "type": "object",
+        "properties": {
+          "PersonId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "FirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "LastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nationality": {
+            "type": "string",
+            "nullable": true
+          },
+          "BirthDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "Gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "ContactInformation": {
+            "$ref": "#/components/schemas/clsContactInformationDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsPersonInfoDTO": {
+        "type": "object",
+        "properties": {
+          "FirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "LastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "BirthDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "Gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountryName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsPersonWithPointDTO": {
+        "type": "object",
+        "properties": {
+          "PersonDTO": {
+            "$ref": "#/components/schemas/clsPersonDTO"
+          },
+          "UserPointDTO": {
+            "$ref": "#/components/schemas/clsUserPointDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequestDTO": {
+        "type": "object",
+        "properties": {
+          "RequestID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "RequestDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "RequestCustomerID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "StoreID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "RequestStatus": {
+            "$ref": "#/components/schemas/enRequestStatus"
+          },
+          "CompletedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequestItemDTO": {
+        "type": "object",
+        "properties": {
+          "RequestItemID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "RequestID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "StoreItemID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Count": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequestTotalPaymentDTO": {
+        "type": "object",
+        "properties": {
+          "RequestID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "TotalDue": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "Discount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "BalanceValueUsed": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsStoreSubCategoryItemItemDTO": {
+        "type": "object",
+        "properties": {
+          "StoreItemID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "SubCategoryItemID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Price": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "Count": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "ImagePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "SubCategoryItemTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "PriceAfterDiscount": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "DiscountEndDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsStoreTypeWithColorDTO": {
+        "type": "object",
+        "properties": {
+          "StoreTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "HexCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "Shade": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CodePoint": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsSubCategoryDTO": {
+        "type": "object",
+        "properties": {
+          "SubCategoryID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "SubCategoryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "SubCategoryImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "CategoryID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsSubCategoryItemDTO": {
+        "type": "object",
+        "properties": {
+          "SubCategoryItemID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "SubCategoryItemTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "SubCategoryItemImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "SubCategoryID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsTokensDTO": {
+        "type": "object",
+        "properties": {
+          "JwtToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "RefreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsUserPointDTO": {
+        "type": "object",
+        "properties": {
+          "Latitude": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "Longitude": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "enRequestStatus": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    }
+  }
+}

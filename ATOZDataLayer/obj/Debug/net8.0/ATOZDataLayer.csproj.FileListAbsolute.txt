@@ -1,0 +1,15 @@
+C:\Users\Game On\source\repos\ATOZDataLayer\bin\Debug\net8.0\ATOZDataLayer.deps.json
+C:\Users\Game On\source\repos\ATOZDataLayer\bin\Debug\net8.0\ATOZDataLayer.dll
+C:\Users\Game On\source\repos\ATOZDataLayer\bin\Debug\net8.0\ATOZDataLayer.pdb
+C:\Users\Game On\source\repos\ATOZDataLayer\bin\Debug\net8.0\ATOZDTO.dll
+C:\Users\Game On\source\repos\ATOZDataLayer\bin\Debug\net8.0\ATOZDTO.pdb
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ATOZDataLayer.csproj.AssemblyReference.cache
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ATOZDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ATOZDataLayer.AssemblyInfoInputs.cache
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ATOZDataLayer.AssemblyInfo.cs
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ATOZDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ATOZData.8B03C927.Up2Date
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ATOZDataLayer.dll
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\refint\ATOZDataLayer.dll
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ATOZDataLayer.pdb
+C:\Users\Game On\source\repos\ATOZDataLayer\obj\Debug\net8.0\ref\ATOZDataLayer.dll

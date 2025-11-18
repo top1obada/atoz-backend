@@ -1,0 +1,12 @@
+C:\Users\Game On\source\repos\ATOZDTO\bin\Release\net8.0\ATOZDTO.deps.json
+C:\Users\Game On\source\repos\ATOZDTO\bin\Release\net8.0\ATOZDTO.dll
+C:\Users\Game On\source\repos\ATOZDTO\bin\Release\net8.0\ATOZDTO.pdb
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\ATOZDTO.csproj.AssemblyReference.cache
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\ATOZDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\ATOZDTO.AssemblyInfoInputs.cache
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\ATOZDTO.AssemblyInfo.cs
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\ATOZDTO.csproj.CoreCompileInputs.cache
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\ATOZDTO.dll
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\refint\ATOZDTO.dll
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\ATOZDTO.pdb
+C:\Users\Game On\source\repos\ATOZDTO\obj\Release\net8.0\ref\ATOZDTO.dll

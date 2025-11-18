@@ -1,0 +1,1517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\storetype\\storetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\storetype\\storetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\customer\\customersignupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\customer\\customersignupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\customer\\services\\loginbyusernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\settings\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\refreshtoken\\refreshtokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\refreshtoken\\refreshtokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\request\\services\\cancelrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\jwt\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:jwt\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD86AEB-54F0-4B72-BA0B-98C6AA884D30}|..\\MyServices\\MyServices.csproj|c:\\users\\game on\\source\\repos\\myservices\\passwordservices\\passwordencrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\customer\\services\\signupbyusernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\request\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\request\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\request\\services\\getcustomerrequestsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\request\\services\\getrequestcontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\filterationdto\\requestcontentfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\requestdto\\requestitem\\requestitemdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\requestdto\\requestitem\\clsrequestitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\requestdto\\requestlocationdto\\requestlocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\apiservices\\apilocationservices\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\request\\requestlocation\\requestlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\request\\requestlocation\\requestlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\request\\requestdelivery\\requestdeliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\request\\requestdelivery\\requestdeliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\request\\requestlocation\\services\\getrequestlocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\request\\requestdelivery\\services\\getrequestdeliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\requestdto\\requestdeliverydto\\requestdeliverydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\customerlocation\\customerlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\customerlocation\\customerlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\customerlocation\\customerlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\customerlocation\\customerlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\storetypedto\\storetypewithcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\refreshtoken\\refreshtokendata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\locationdto\\customerlocationdto\\customerlocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\person\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\locationdto\\userpointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\address\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\address\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\item\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\item\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\request\\services\\insertcompletedrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\subcategorydto\\clssubcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\subcategory\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\subcategory\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\category\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\category\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\storedto\\customerstoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\customer\\customerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\subcategoryitem\\subcategoryitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\filterationdto\\customerbalancepaymentshistoryfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\favoritestoredto\\favoritestoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\session\\services\\dropsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\session\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\session\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\storetype\\storetypedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\item\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\subcategoryitemdto\\clssubcategoryitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\contactinformation\\contactinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\contactinformation\\contactinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\store\\storedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\addressdto\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\address\\services\\saveaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\address\\addressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\address\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\contactinformationdto\\contactinformationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\persondto\\personinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\person\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\person\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\contactinformation\\services\\getcontactinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\person\\services\\getpersoninfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\persondto\\personwithpointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\persondto\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\admininfo\\admininfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\admininfo\\admininfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\admininfo\\admininfodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\customerbalancedto\\customerbalancepaymenthistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|c:\\users\\game on\\source\\repos\\atozapis\\controllers\\customerbalance\\customerbalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39A3932-A4AB-41CD-B522-C5CBD222D7B0}|ATOZAPIs.csproj|solutionrelative:controllers\\customerbalance\\customerbalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\customerbalance\\customerbalancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\customerbalance\\services\\getcustomerbalanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\filterationdto\\customerfavoritestorefilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\filterationdto\\clscustomerrequestsfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\category\\categorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\requestdto\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\store\\services\\getallcustomerstoresuggestionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\filterationdto\\customerstoresfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\storetype\\services\\getallstoretypesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DCBEDD-AB1D-4A71-B540-B0E563824E44}|..\\ATOZDataLayer\\ATOZDataLayer.csproj|c:\\users\\game on\\source\\repos\\atozdatalayer\\connection\\subcategory\\subcategorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\requestdto\\completedrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\item\\services\\getstoresubcategoryitemitemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\subcategory\\services\\getstoresubcategoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\category\\services\\getstorecategoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\store\\services\\getcustomersearchingstoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\store\\services\\getallcustomerpriviousrequestsstoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\filterationdto\\customersearchingstoresfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\store\\services\\getallcustomerfavoritestoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\store\\services\\getallfamouscustomerstoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\customerdto\\signupbyusernamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\customerdto\\customersignupretrivingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\customerdto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\datatypes\\modes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\services\\save\\saveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\objects\\customer\\services\\loginbyemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\services\\login\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B602B4E-2445-439B-B300-6C7CC01AD5C8}|..\\ATOZBussinessLayer\\ATOZBussinessLayer.csproj|c:\\users\\game on\\source\\repos\\atozbussinesslayer\\services\\signup\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\retrivingloggedindto\\completedloginretrivingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\objectsdtos\\retrivingloggedindto\\loginretrivingsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\filterationdto\\storecategoriesfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E1DBF2-68C4-4803-9302-F587167791F2}|..\\ATOZDTO\\ATOZDTO.csproj|c:\\users\\game on\\source\\repos\\atozdto\\filterationdto\\storecategorysubcategoriesfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAFDMzMzMLwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:08:17.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginByUserNameService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Customer\\Services\\LoginByUserNameService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Customer\\Services\\LoginByUserNameService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Customer\\Services\\LoginByUserNameService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Customer\\Services\\LoginByUserNameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T00:23:23.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JWT.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\JWT\\JWT.cs",
+              "RelativeDocumentMoniker": "JWT\\JWT.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\JWT\\JWT.cs",
+              "RelativeToolTip": "JWT\\JWT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:01:55.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-04T20:11:18.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Settings\\Settings.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Settings\\Settings.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Settings\\Settings.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Settings\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T02:35:29.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerSignUpController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Customer\\CustomerSignUpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Customer\\CustomerSignUpController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Customer\\CustomerSignUpController.cs",
+              "RelativeToolTip": "Controllers\\Customer\\CustomerSignUpController.cs",
+              "ViewState": "AgIAAM0AAAAAwMzMzEwcwNYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T20:41:29.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RefreshTokenController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\RefreshToken\\RefreshTokenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RefreshToken\\RefreshTokenController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\RefreshToken\\RefreshTokenController.cs",
+              "RelativeToolTip": "Controllers\\RefreshToken\\RefreshTokenController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T23:24:28.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoreTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\StoreType\\StoreTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StoreType\\StoreTypeController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\StoreType\\StoreTypeController.cs",
+              "RelativeToolTip": "Controllers\\StoreType\\StoreTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T01:25:21.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PasswordEncrypt.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\MyServices\\PasswordServices\\PasswordEncrypt.cs",
+              "RelativeDocumentMoniker": "..\\MyServices\\PasswordServices\\PasswordEncrypt.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\MyServices\\PasswordServices\\PasswordEncrypt.cs",
+              "RelativeToolTip": "..\\MyServices\\PasswordServices\\PasswordEncrypt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T00:23:32.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CancelRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\Services\\CancelRequestService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Request\\Services\\CancelRequestService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\Services\\CancelRequestService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Request\\Services\\CancelRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:45:03.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Session\\Session.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Session\\Session.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Session\\Session.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Session\\Session.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T14:44:41.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SignUpByUserNameService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Customer\\Services\\SignUpByUserNameService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Customer\\Services\\SignUpByUserNameService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Customer\\Services\\SignUpByUserNameService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Customer\\Services\\SignUpByUserNameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwBUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T00:23:25.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RequestItemDetailsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestItem\\RequestItemDetailsDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestItem\\RequestItemDetailsDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestItem\\RequestItemDetailsDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestItem\\RequestItemDetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:08:09.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RequestDeliveryController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Request\\RequestDelivery\\RequestDeliveryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Request\\RequestDelivery\\RequestDeliveryController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Request\\RequestDelivery\\RequestDeliveryController.cs",
+              "RelativeToolTip": "Controllers\\Request\\RequestDelivery\\RequestDeliveryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T23:01:26.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RequestDeliveryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestDeliveryDTO\\RequestDeliveryDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestDeliveryDTO\\RequestDeliveryDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestDeliveryDTO\\RequestDeliveryDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestDeliveryDTO\\RequestDeliveryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T22:56:39.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetCustomerRequestsService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\Services\\GetCustomerRequestsService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Request\\Services\\GetCustomerRequestsService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\Services\\GetCustomerRequestsService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Request\\Services\\GetCustomerRequestsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T18:44:24.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Request\\RequestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Request\\RequestController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Request\\RequestController.cs",
+              "RelativeToolTip": "Controllers\\Request\\RequestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:39:00.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RequestContentFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\RequestContentFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\FilterationDTO\\RequestContentFilterDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\RequestContentFilterDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\FilterationDTO\\RequestContentFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:09:43.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetRequestContentService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\Services\\GetRequestContentService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Request\\Services\\GetRequestContentService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\Services\\GetRequestContentService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Request\\Services\\GetRequestContentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:34:39.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\APIServices\\APILocationServices\\LocationService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\APIServices\\APILocationServices\\LocationService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\APIServices\\APILocationServices\\LocationService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\APIServices\\APILocationServices\\LocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T12:27:57.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RequestLocationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestLocationDTO\\RequestLocationDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestLocationDTO\\RequestLocationDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestLocationDTO\\RequestLocationDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestLocationDTO\\RequestLocationDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T20:54:54.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RequestLocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Request\\RequestLocation\\RequestLocationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Request\\RequestLocation\\RequestLocationController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Request\\RequestLocation\\RequestLocationController.cs",
+              "RelativeToolTip": "Controllers\\Request\\RequestLocation\\RequestLocationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T12:49:30.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetRequestLocationService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\RequestLocation\\Services\\GetRequestLocationService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Request\\RequestLocation\\Services\\GetRequestLocationService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\RequestLocation\\Services\\GetRequestLocationService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Request\\RequestLocation\\Services\\GetRequestLocationService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAvwA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T12:47:33.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "clsRequestItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestItem\\clsRequestItemDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestItem\\clsRequestItemDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestItem\\clsRequestItemDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\RequestItem\\clsRequestItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T00:43:31.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetRequestDeliveryService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\RequestDelivery\\Services\\GetRequestDeliveryService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Request\\RequestDelivery\\Services\\GetRequestDeliveryService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\RequestDelivery\\Services\\GetRequestDeliveryService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Request\\RequestDelivery\\Services\\GetRequestDeliveryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T22:59:25.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CustomerLocation.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\CustomerLocation\\CustomerLocation.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\CustomerLocation\\CustomerLocation.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\CustomerLocation\\CustomerLocation.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\CustomerLocation\\CustomerLocation.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAnwEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T21:30:17.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CustomerLocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\CustomerLocation\\CustomerLocationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerLocation\\CustomerLocationController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\CustomerLocation\\CustomerLocationController.cs",
+              "RelativeToolTip": "Controllers\\CustomerLocation\\CustomerLocationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T21:07:52.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StoreTypeWithColorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\StoreTypeDTO\\StoreTypeWithColorDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\StoreTypeDTO\\StoreTypeWithColorDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\StoreTypeDTO\\StoreTypeWithColorDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\StoreTypeDTO\\StoreTypeWithColorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T01:12:54.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerLocation.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\CustomerLocation\\CustomerLocation.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\CustomerLocation\\CustomerLocation.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\CustomerLocation\\CustomerLocation.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\CustomerLocation\\CustomerLocation.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAawGYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T01:16:07.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RefreshTokenData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\RefreshToken\\RefreshTokenData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\RefreshToken\\RefreshTokenData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\RefreshToken\\RefreshTokenData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\RefreshToken\\RefreshTokenData.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwDkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:25:32.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserPointDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\LocationDTO\\UserPointDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\LocationDTO\\UserPointDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\LocationDTO\\UserPointDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\LocationDTO\\UserPointDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T20:53:59.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CustomerLocationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\LocationDTO\\CustomerLocationDTO\\CustomerLocationDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\LocationDTO\\CustomerLocationDTO\\CustomerLocationDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\LocationDTO\\CustomerLocationDTO\\CustomerLocationDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\LocationDTO\\CustomerLocationDTO\\CustomerLocationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T21:35:02.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Address\\AddressController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Address\\AddressController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Address\\AddressController.cs",
+              "RelativeToolTip": "Controllers\\Address\\AddressController.cs",
+              "ViewState": "AgIAAAAAAAAAMzMzMzMbwDYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T19:02:38.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PersonData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Person\\PersonData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\Person\\PersonData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Person\\PersonData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\Person\\PersonData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T14:03:15.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InsertCompletedRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\Services\\InsertCompletedRequestService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Request\\Services\\InsertCompletedRequestService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Request\\Services\\InsertCompletedRequestService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Request\\Services\\InsertCompletedRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T22:02:46.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Item\\ItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Item\\ItemController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Item\\ItemController.cs",
+              "RelativeToolTip": "Controllers\\Item\\ItemController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T00:41:44.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "clsSubCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\SubCategoryDTO\\clsSubCategoryDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\SubCategoryDTO\\clsSubCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\SubCategoryDTO\\clsSubCategoryDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\SubCategoryDTO\\clsSubCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:30:29.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SubCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\SubCategory\\SubCategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubCategory\\SubCategoryController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\SubCategory\\SubCategoryController.cs",
+              "RelativeToolTip": "Controllers\\SubCategory\\SubCategoryController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:43:15.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CategoryDTO\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\CategoryDTO\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CategoryDTO\\CategoryDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\CategoryDTO\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T22:10:14.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Category\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Category\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Category\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\Category\\CategoryController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:47:03.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CustomerStoreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\StoreDTO\\CustomerStoreDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\StoreDTO\\CustomerStoreDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\StoreDTO\\CustomerStoreDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\StoreDTO\\CustomerStoreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:20:28.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CustomerData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Customer\\CustomerData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\Customer\\CustomerData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Customer\\CustomerData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\Customer\\CustomerData.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAwwN0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:02:07.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "StoreTypeData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\StoreType\\StoreTypeData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\StoreType\\StoreTypeData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\StoreType\\StoreTypeData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\StoreType\\StoreTypeData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T21:34:54.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DropSessionService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Session\\Services\\DropSessionService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Session\\Services\\DropSessionService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Session\\Services\\DropSessionService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Session\\Services\\DropSessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T23:07:36.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SubCategoryItemData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\SubCategoryItem\\SubCategoryItemData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\SubCategoryItem\\SubCategoryItemData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\SubCategoryItem\\SubCategoryItemData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\SubCategoryItem\\SubCategoryItemData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:00:23.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CustomerBalancePaymentsHistoryFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\CustomerBalancePaymentsHistoryFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\FilterationDTO\\CustomerBalancePaymentsHistoryFilterDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\CustomerBalancePaymentsHistoryFilterDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\FilterationDTO\\CustomerBalancePaymentsHistoryFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:00:48.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Session\\SessionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Session\\SessionController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Session\\SessionController.cs",
+              "RelativeToolTip": "Controllers\\Session\\SessionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T23:32:37.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "FavoriteStoreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\FavoriteStoreDTO\\FavoriteStoreDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\FavoriteStoreDTO\\FavoriteStoreDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\FavoriteStoreDTO\\FavoriteStoreDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\FavoriteStoreDTO\\FavoriteStoreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T23:54:36.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "clsSubCategoryItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\SubCategoryItemDTO\\clsSubCategoryItemDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\SubCategoryItemDTO\\clsSubCategoryItemDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\SubCategoryItemDTO\\clsSubCategoryItemDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\SubCategoryItemDTO\\clsSubCategoryItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T22:09:48.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Address\\Address.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Address\\Address.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Address\\Address.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Address\\Address.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAD4v08AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T21:23:24.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ItemData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Item\\ItemData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\Item\\ItemData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Item\\ItemData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\Item\\ItemData.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T00:58:35.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "StoreData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Store\\StoreData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\Store\\StoreData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Store\\StoreData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\Store\\StoreData.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAcwO8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T00:11:44.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ContactInformationController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\ContactInformation\\ContactInformationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactInformation\\ContactInformationController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\ContactInformation\\ContactInformationController.cs",
+              "RelativeToolTip": "Controllers\\ContactInformation\\ContactInformationController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAD4vyUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T14:31:52.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SaveAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Address\\Services\\SaveAddressService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Address\\Services\\SaveAddressService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Address\\Services\\SaveAddressService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Address\\Services\\SaveAddressService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAD4vycAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T19:05:56.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\AddressDTO\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\AddressDTO\\AddressDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\AddressDTO\\AddressDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\AddressDTO\\AddressDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T00:43:29.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Person\\PersonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Person\\PersonController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\Person\\PersonController.cs",
+              "RelativeToolTip": "Controllers\\Person\\PersonController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T23:59:27.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AddressData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Address\\AddressData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\Address\\AddressData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Address\\AddressData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\Address\\AddressData.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwGUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T21:24:14.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PersonInfoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonInfoDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonInfoDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonInfoDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonInfoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T14:02:11.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ContactInformationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\ContactInformationDTO\\ContactInformationDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\ContactInformationDTO\\ContactInformationDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\ContactInformationDTO\\ContactInformationDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\ContactInformationDTO\\ContactInformationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:25:52.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GetContactInformationService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\ContactInformation\\Services\\GetContactInformationService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\ContactInformation\\Services\\GetContactInformationService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\ContactInformation\\Services\\GetContactInformationService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\ContactInformation\\Services\\GetContactInformationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T14:26:33.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GetPersonInfoService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Person\\Services\\GetPersonInfoService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Person\\Services\\GetPersonInfoService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Person\\Services\\GetPersonInfoService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Person\\Services\\GetPersonInfoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T14:21:31.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AdminInfoData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\AdminInfo\\AdminInfoData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\AdminInfo\\AdminInfoData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\AdminInfo\\AdminInfoData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\AdminInfo\\AdminInfoData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T20:12:28.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AdminInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\AdminInfo\\AdminInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminInfo\\AdminInfoController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\AdminInfo\\AdminInfoController.cs",
+              "RelativeToolTip": "Controllers\\AdminInfo\\AdminInfoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T20:17:48.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CustomerBalancePaymentHistoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CustomerBalanceDTO\\CustomerBalancePaymentHistoryDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\CustomerBalanceDTO\\CustomerBalancePaymentHistoryDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CustomerBalanceDTO\\CustomerBalancePaymentHistoryDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\CustomerBalanceDTO\\CustomerBalancePaymentHistoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T21:42:23.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PersonDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:13:32.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "PersonWithPointDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonWithPointDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonWithPointDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonWithPointDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\PersonDTO\\PersonWithPointDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T21:39:13.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CustomerBalanceData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\CustomerBalance\\CustomerBalanceData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\CustomerBalance\\CustomerBalanceData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\CustomerBalance\\CustomerBalanceData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\CustomerBalance\\CustomerBalanceData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:17:06.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CustomerBalanceController.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\CustomerBalance\\CustomerBalanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerBalance\\CustomerBalanceController.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZAPIs\\Controllers\\CustomerBalance\\CustomerBalanceController.cs",
+              "RelativeToolTip": "Controllers\\CustomerBalance\\CustomerBalanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T00:27:10.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "GetCustomerBalanceService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\CustomerBalance\\Services\\GetCustomerBalanceService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\CustomerBalance\\Services\\GetCustomerBalanceService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\CustomerBalance\\Services\\GetCustomerBalanceService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\CustomerBalance\\Services\\GetCustomerBalanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:24:33.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CustomerFavoriteStoreFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\CustomerFavoriteStoreFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\FilterationDTO\\CustomerFavoriteStoreFilterDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\CustomerFavoriteStoreFilterDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\FilterationDTO\\CustomerFavoriteStoreFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:20:18.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CategoryData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Category\\CategoryData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\Category\\CategoryData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\Category\\CategoryData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\Category\\CategoryData.cs",
+              "ViewState": "AgIAAAsAAADAMjMzMzMrwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:34:37.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "clsCustomerRequestsFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\clsCustomerRequestsFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\FilterationDTO\\clsCustomerRequestsFilterDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\clsCustomerRequestsFilterDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\FilterationDTO\\clsCustomerRequestsFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:46:58.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "CustomerRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\CustomerRequestDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\CustomerRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\CustomerRequestDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\CustomerRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T18:52:01.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CustomerStoresFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\CustomerStoresFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\FilterationDTO\\CustomerStoresFilterDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\CustomerStoresFilterDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\FilterationDTO\\CustomerStoresFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T22:34:52.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "GetAllCustomerStoreSuggestionsService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerStoreSuggestionsService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerStoreSuggestionsService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerStoreSuggestionsService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerStoreSuggestionsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T13:05:13.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GetAllStoreTypesService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\StoreType\\Services\\GetAllStoreTypesService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\StoreType\\Services\\GetAllStoreTypesService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\StoreType\\Services\\GetAllStoreTypesService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\StoreType\\Services\\GetAllStoreTypesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T01:19:52.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "SubCategoryData.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\SubCategory\\SubCategoryData.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDataLayer\\Connection\\SubCategory\\SubCategoryData.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDataLayer\\Connection\\SubCategory\\SubCategoryData.cs",
+              "RelativeToolTip": "..\\ATOZDataLayer\\Connection\\SubCategory\\SubCategoryData.cs",
+              "ViewState": "AgIAABEAAAAA/v////8fwCcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:37:41.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CompletedRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\CompletedRequestDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\CompletedRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\CompletedRequestDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\RequestDTO\\CompletedRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T00:41:53.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "StoreCategoriesFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\StoreCategoriesFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\FilterationDTO\\StoreCategoriesFilterDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\StoreCategoriesFilterDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\FilterationDTO\\StoreCategoriesFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:56:14.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "GetStoreSubCategoryItemItemsService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Item\\Services\\GetStoreSubCategoryItemItemsService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Item\\Services\\GetStoreSubCategoryItemItemsService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Item\\Services\\GetStoreSubCategoryItemItemsService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Item\\Services\\GetStoreSubCategoryItemItemsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T21:55:55.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "StoreCategorySubCategoriesFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\StoreCategorySubCategoriesFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\FilterationDTO\\StoreCategorySubCategoriesFilterDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\StoreCategorySubCategoriesFilterDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\FilterationDTO\\StoreCategorySubCategoriesFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:15:49.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "GetStoreSubCategoriesService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\SubCategory\\Services\\GetStoreSubCategoriesService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\SubCategory\\Services\\GetStoreSubCategoriesService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\SubCategory\\Services\\GetStoreSubCategoriesService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\SubCategory\\Services\\GetStoreSubCategoriesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:43:11.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "GetStoreCategoriesService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Category\\Services\\GetStoreCategoriesService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Category\\Services\\GetStoreCategoriesService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Category\\Services\\GetStoreCategoriesService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Category\\Services\\GetStoreCategoriesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:40:44.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CustomerSearchingStoresFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\CustomerSearchingStoresFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\FilterationDTO\\CustomerSearchingStoresFilterDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\FilterationDTO\\CustomerSearchingStoresFilterDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\FilterationDTO\\CustomerSearchingStoresFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T01:26:48.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "GetAllCustomerPriviousRequestsStoresService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerPriviousRequestsStoresService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerPriviousRequestsStoresService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerPriviousRequestsStoresService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerPriviousRequestsStoresService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T00:15:24.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "GetCustomerSearchingStoresService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetCustomerSearchingStoresService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetCustomerSearchingStoresService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetCustomerSearchingStoresService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetCustomerSearchingStoresService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T01:30:08.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "GetAllCustomerFavoriteStoresService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerFavoriteStoresService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerFavoriteStoresService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerFavoriteStoresService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllCustomerFavoriteStoresService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T17:32:15.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "GetAllFamousCustomerStoresService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllFamousCustomerStoresService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllFamousCustomerStoresService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllFamousCustomerStoresService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Store\\Services\\GetAllFamousCustomerStoresService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T20:13:09.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "SignUpByUserNameDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\SignUpByUserNameDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\SignUpByUserNameDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\SignUpByUserNameDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\SignUpByUserNameDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T21:37:20.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CustomerSignUpRetrivingsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\CustomerSignUpRetrivingsDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\CustomerSignUpRetrivingsDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\CustomerSignUpRetrivingsDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\CustomerSignUpRetrivingsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:24:45.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\CustomerDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\CustomerDTO\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:22.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Services\\Login\\LoginService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Services\\Login\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Services\\Login\\LoginService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Services\\Login\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T20:05:12.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Modes.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\DataTypes\\Modes.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\DataTypes\\Modes.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\DataTypes\\Modes.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\DataTypes\\Modes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T14:55:08.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "LoginByEmail.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Customer\\Services\\LoginByEmail.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Objects\\Customer\\Services\\LoginByEmail.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Objects\\Customer\\Services\\LoginByEmail.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Objects\\Customer\\Services\\LoginByEmail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T20:46:58.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "SaveService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Services\\Save\\SaveService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Services\\Save\\SaveService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Services\\Save\\SaveService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Services\\Save\\SaveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T14:53:05.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "SignUpService.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Services\\SignUp\\SignUpService.cs",
+              "RelativeDocumentMoniker": "..\\ATOZBussinessLayer\\Services\\SignUp\\SignUpService.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZBussinessLayer\\Services\\SignUp\\SignUpService.cs",
+              "RelativeToolTip": "..\\ATOZBussinessLayer\\Services\\SignUp\\SignUpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T19:13:36.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "CompletedLoginRetrivingDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RetrivingLoggedInDTO\\CompletedLoginRetrivingDTO.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\RetrivingLoggedInDTO\\CompletedLoginRetrivingDTO.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RetrivingLoggedInDTO\\CompletedLoginRetrivingDTO.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\RetrivingLoggedInDTO\\CompletedLoginRetrivingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T18:44:10.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "LoginRetrivingSecurity.cs",
+              "DocumentMoniker": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RetrivingLoggedInDTO\\LoginRetrivingSecurity.cs",
+              "RelativeDocumentMoniker": "..\\ATOZDTO\\ObjectsDTOs\\RetrivingLoggedInDTO\\LoginRetrivingSecurity.cs",
+              "ToolTip": "C:\\Users\\Game On\\source\\repos\\ATOZDTO\\ObjectsDTOs\\RetrivingLoggedInDTO\\LoginRetrivingSecurity.cs",
+              "RelativeToolTip": "..\\ATOZDTO\\ObjectsDTOs\\RetrivingLoggedInDTO\\LoginRetrivingSecurity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T18:38:27.656Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

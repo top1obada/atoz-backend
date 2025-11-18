@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.70.0" />
+    <PackageReference Include="Google.Apis.PeopleService.v1" Version="1.69.0.3785" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ATOZDTO\ATOZDTO.csproj" />
+  </ItemGroup>
+
+</Project>
